@@ -2,9 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route} from "react-router-dom";
 import './index.css';
-import home from './layout/home';
+import home from './pages/home';
 import reportWebVitals from './reportWebVitals';
-import Home from "./layout/home";
+import Home from "./pages/home";
 
 export default function App(){
     return(
